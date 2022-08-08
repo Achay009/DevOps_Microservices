@@ -8,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This program built for i386-apple-darwin11.3.0
  
 
-# Make data base, printed on Sun Aug  7 12:48:18 2022
+# Make data base, printed on Mon Aug  8 04:12:09 2022
 
 # Variables
 
@@ -24,7 +24,6 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 @F = $(notdir $@)
 # makefile
 CURDIR := /Users/achay/Desktop/Udacity Devops/DevOps_Microservices/project-ml-microservice-kubernetes
- 
 # makefile
 SHELL = /bin/sh
 # environment
@@ -62,7 +61,7 @@ VSCODE_CODE_CACHE_PATH = /Users/achay/Library/Application Support/Code/CachedDat
 # environment
 LOGNAME = achay
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -138,9 +137,9 @@ VSCODE_PID = 3694
 
 # Directories
 
-# . (device 16777223, inode 22154880): 15 files, no impossibilities.
+# . (device 16777223, inode 22154880): 17 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -199,7 +198,6 @@ test:
 #  File has not been updated.
 
 lint:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -255,6 +253,6 @@ install:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun Aug  7 12:48:18 2022
+# Finished Make data base on Mon Aug  8 04:12:09 2022
 
  
